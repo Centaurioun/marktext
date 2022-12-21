@@ -1542,10 +1542,10 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz#d5e0706cf8c6acd8c6032f8d54070af261bbbb2f"
   integrity sha512-ws57AidsDvREKrZKYffXddNkyaF14iHNHm8VQnZH6t99E8gczjNN0GpvcGny0imC80yQ0tHz1xVUKk/KFQSUyA==
 
-"@electron/get@^1.13.0":
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/@electron/get/-/get-1.13.1.tgz#42a0aa62fd1189638bd966e23effaebb16108368"
-  integrity sha512-U5vkXDZ9DwXtkPqlB45tfYnnYBN8PePp1z/XDCupnSpdrxT8/ThCv9WCwPLf9oqiSGZTkH6dx2jDUPuoXpjkcA==
+"@electron/get@^1.14.1":
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/@electron/get/-/get-1.14.1.tgz#16ba75f02dffb74c23965e72d617adc721d27f40"
+  integrity sha512-BrZYyL/6m0ZXz/lDxy/nlVhQz+WF+iPS6qXolEU8atw7h6v1aYkjwJZ63m+bJMBTxDE66X+r2tPS4a/8C82sZw==
   dependencies:
     debug "^4.1.1"
     env-paths "^2.2.0"
@@ -2165,10 +2165,10 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-14.0.11.tgz#61d4886e2424da73b7b25547f59fdcb534c165a3"
   integrity sha512-lCvvI24L21ZVeIiyIUHZ5Oflv1hhHQ5E1S25IRlKIXaRkVgmXpJMI3wUJkmym2bTbCe+WoIibQnMVAU3FguaOg==
 
-"@types/node@^14.6.2":
-  version "14.17.34"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.34.tgz#fe4b38b3f07617c0fa31ae923fca9249641038f0"
-  integrity sha512-USUftMYpmuMzeWobskoPfzDi+vkpe0dvcOBRNOscFrGxVp4jomnRxWuVohgqBow2xyIPC0S3gjxV/5079jhmDg==
+"@types/node@^16.11.26":
+  version "16.18.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.10.tgz#d7415ef18c94f8d4e4a82ebcc8b8999f965d8920"
+  integrity sha512-XU1+v7h81p7145ddPfjv7jtWvkSilpcnON3mQ+bDi9Yuf7OI56efOglXRyXWgQ57xH3fEQgh7WOJMncRHVew5w==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -5611,13 +5611,13 @@ electron-window-state@^5.0.3:
     jsonfile "^4.0.0"
     mkdirp "^0.5.1"
 
-electron@^17.1.2:
-  version "17.1.2"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-17.1.2.tgz#b4e4a0df883d9a9854cf865efa2bb00b12d55b1d"
-  integrity sha512-hqKQaUIRWX5Y2eAD8FZINWD/e5TKdpkbBYbkcZmJS4Bd1PKQsaDVc9h5xoA8zZQkPymE9rss+swjRpAFurOPGQ==
+electron@^19.1.5:
+  version "19.1.9"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-19.1.9.tgz#01995eea4014f7cdb2f616f5f3492d4ed6f5e4f0"
+  integrity sha512-XT5LkTzIHB+ZtD3dTmNnKjVBWrDWReCKt9G1uAFLz6uJMEVcIUiYO+fph5pLXETiBw/QZBx8egduMEfIccLx+g==
   dependencies:
-    "@electron/get" "^1.13.0"
-    "@types/node" "^14.6.2"
+    "@electron/get" "^1.14.1"
+    "@types/node" "^16.11.26"
     extract-zip "^1.0.3"
 
 elegant-spinner@^1.0.1:
