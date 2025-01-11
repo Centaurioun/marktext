@@ -31,7 +31,9 @@
     "rebuild": "electron-rebuild -f",
     "gen-third-party": "node tools/generateThirdPartyLicense.js",
     "validate-licenses": "node tools/validateLicenses.js",
-    "deobfuscateStackTrace": "node tools/deobfuscateStackTrace.js"
+    "deobfuscateStackTrace": "node tools/deobfuscateStackTrace.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@electron/remote": "^2.0.8",
@@ -86,7 +88,8 @@
     "vue-electron": "^1.0.6",
     "vue-router": "^3.5.3",
     "vuex": "^3.6.2",
-    "webfontloader": "^1.6.28"
+    "webfontloader": "^1.6.28",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
@@ -203,5 +206,6 @@
       "email": "hfelix@protonmail.ch",
       "url": "https://github.com/fxha"
     }
-  ]
+  ],
+  "snyk": true
 }
